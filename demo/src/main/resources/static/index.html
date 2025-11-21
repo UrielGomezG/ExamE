@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Usuario</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Registro de Usuario</h1>
+
+    <form id="formulario">
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="Nombre" >
+      </div>
+
+      <div class="form-group">
+        <label for="apellidoP">Apellido Paterno:</label>
+        <input type="text" id="apellidoP" name="ApellidoP" >
+      </div>
+
+      <div class="form-group">
+        <label for="apellidoM">Apellido Materno:</label>
+        <input type="text" id="apellidoM" name="ApellidoM">
+      </div>
+
+      <div class="form-group">
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="Correo">
+      </div>
+
+      <div class="form-group">
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="Contraseña" >
+      </div>
+
+      <button type="submit" class="btn">Registrar</button>
+    </form>
+
+    <div id="resultado" class="resultado-box"></div>
+  </div>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
