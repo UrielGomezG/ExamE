@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Generador de Contraseña Segura</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+<div class="panel">
+  <h2>Generador de Contraseña</h2>
+
+  <form id="passwordForm">
+
+    <label>Nombre:</label>
+    <input type="text" name="nombre" required>
+
+    <label>Número Favorito:</label>
+    <input type="number" name="numero" required>
+
+    <label>Palabra clave:</label>
+    <input type="text" name="palabra" required>
+
+    <label>Nivel de seguridad:</label>
+    <select name="nivel">
+      <option value="bajo">Bajo</option>
+      <option value="medio">Medio</option>
+      <option value="alto">Alto</option>
+    </select>
+
+    <button type="submit">Generar</button>
+  </form>
+
+  <div id="resultado" class="terminal"></div>
+
+</div>
+
+<script src="/js/script.js"></script>
+
+</body>
+</html>
